@@ -6,11 +6,11 @@ Service-One is a serverless web platform designed to help consumers evaluate if 
 
 ---
 
-## 🚀 Live Services
+## Live Services
 
 * **Frontend Web Application (Firebase Hosting)**: [https://service-one-platform.web.app](https://service-one-platform.web.app)
 
-## ✨ Features & Capabilities
+## Features & Capabilities
 
 * **AI Quote Verdict System**: Classifies submitted invoice quotes into **Fair**, **High**, **Suspicious**, or **Low** pricing categories.
 * **Dynamic User Dashboard**:
@@ -24,7 +24,7 @@ Service-One is a serverless web platform designed to help consumers evaluate if 
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 | Layer | Technology | Description |
 |---|---|---|
@@ -38,7 +38,7 @@ Service-One is a serverless web platform designed to help consumers evaluate if 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 service-one/
@@ -67,7 +67,7 @@ service-one/
 
 ---
 
-## ⚙️ Local Setup
+## Local Setup
 
 ### 1. Backend Setup
 
@@ -100,7 +100,7 @@ npm run dev
 
 ---
 
-## 📡 Core API Routes
+## Core API Routes
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -113,7 +113,7 @@ npm run dev
 
 ---
 
-## 🔄 Recent Changes & Migrations
+## Recent Changes & Migrations
 
 1. **Firestore DB Switch**: Legacy PostgreSQL code and PostgreSQL client dependencies (`psycopg2`) have been removed from the backend database layer. The application now uses Google Cloud Firestore natively for robust, low-maintenance serverless scalability.
 2. **Dependency Resolution**: Added missing packages (including `redis` client) in `requirements.txt` to resolve deployment container startup crashes.

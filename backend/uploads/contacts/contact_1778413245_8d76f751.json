@@ -1,7 +1,0 @@
-{
-  "name": "John Doe",
-  "phone": "9876543210",
-  "email": "johndoe@gmail.com",
-  "message": "This is a direct API verification call saving into the local bucket folder.",
-  "submitted_at": "2026-05-10T11:40:45.669929"
-}

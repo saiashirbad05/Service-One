@@ -112,10 +112,3 @@ npm run dev
 | `POST` | `/api/community-report` | Submit invoice proof and price details |
 
 ---
-
-## Recent Changes & Migrations
-
-1. **Firestore DB Switch**: Legacy PostgreSQL code and PostgreSQL client dependencies (`psycopg2`) have been removed from the backend database layer. The application now uses Google Cloud Firestore natively for robust, low-maintenance serverless scalability.
-2. **Dependency Resolution**: Added missing packages (including `redis` client) in `requirements.txt` to resolve deployment container startup crashes.
-3. **Theme Variables Integration**: Refactored the dashboard component markup in the frontend to bind fully to CSS custom variables (`var(--bg)`, `var(--text)`, etc.), making theme changes instantaneous.
-4. **Header Enhancements**: Relocated the **Dashboard** shortcut button to sit right next to the user profile avatar, styled as a premium action pill. Added corresponding mobile menu drawer support.

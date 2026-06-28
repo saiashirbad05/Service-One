@@ -9,9 +9,6 @@ Service-One is a serverless web platform designed to help consumers evaluate if 
 ## 🚀 Live Services
 
 * **Frontend Web Application (Firebase Hosting)**: [https://service-one-platform.web.app](https://service-one-platform.web.app)
-* **Backend API (Google Cloud Run)**: [https://service-one-backend-592281685075.us-central1.run.app/health](https://service-one-backend-592281685075.us-central1.run.app/health)
-
----
 
 ## ✨ Features & Capabilities
 

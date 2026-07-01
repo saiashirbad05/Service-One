@@ -1,0 +1,15 @@
+google-adk
+google-cloud-aiplatform
+google-genai
+fastapi
+uvicorn
+pytest
+python-dotenv
+googlemaps
+pytest-asyncio
+slowapi
+python-multipart
+google-cloud-firestore
+mcp
+redis
+chromadb

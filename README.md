@@ -7,7 +7,6 @@ Service-One is a serverless web platform designed to help consumers evaluate if 
 ## Live Deployments
 
 * **Frontend Web Application (Firebase Hosting)**: https://service-one-platform.web.app
-* **Backend API (Google Cloud Run)**: https://service-one-backend-592281685075.us-central1.run.app
 
 ---
 
@@ -149,8 +148,3 @@ The repository contains scripts under the scripts folder to maintain database op
 * **Vector Database Seeder (scripts/generate_synthetic_data.py)**: Compiles synthetic repair records, fetches vector embeddings using gemini-embedding-2, and writes records with their vector representation to Firestore.
 * **Scraper Loader Pipeline (scripts/scrape_and_push_to_db.py)**: Crawls/simulates local directory pricing signals, structures records, computes embeddings, and performs batch commits to both Firestore and BigQuery.
 * **BigQuery Sync Tool (scripts/sync_firestore_to_bigquery.py)**: Scans all documents in the Firestore community_reports collection and streams them directly into the BigQuery serviceone_analytics dataset table.
-
-### Accessing the BigQuery Console
-The synced BigQuery table is accessible on the Google Cloud Console:
-https://console.cloud.google.com/bigquery?project=service-one-platform
-Expand the project tree and navigate to "serviceone_analytics" -> "community_reports" to query records.
